@@ -2,3 +2,15 @@ baseURL = 'https://example.org/'
 languageCode = 'fr-FR'
 title = 'HETIC Hugo Quickstart !'
 theme = 'ananke'
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/maxence-breuilles/"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/MisterAzix"
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/MaxenceBr_"
