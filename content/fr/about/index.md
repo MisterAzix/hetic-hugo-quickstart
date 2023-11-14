@@ -2,6 +2,8 @@
 title = 'À propos'
 description = 'Bienvenue sur la page "À propos" de notre site dédié au cours sur le framework Hugo. Nous sommes ravis de vous accueillir dans cette aventure passionnante de création de sites statiques efficaces et élégants.'
 featured_image = '/images/about-gradient.webp'
+[menu.main]
+weight = 1
 +++
 ## Notre Mission
 

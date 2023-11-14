@@ -1,7 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'fr-FR'
-title = 'HETIC Hugo Quickstart !'
+title = 'HugoLearn'
 theme = 'ananke'
+
+DefaultContentLanguage = "fr"
+SectionPagesMenu = "main"
+enableRobotsTXT = true
+
+[languages]
+  [languages.fr]
+    weight = 1
+    contentDir = "content/fr"
+  [languages.en]
+    weight = 2
+    contentDir = "content/en"
 
 [[params.ananke_socials]]
 name = "linkedin"
