@@ -1,5 +1,5 @@
 +++
-title = 'Chapter 1 : Installation'
+title = 'Chapitre 1 : Installation'
 date = 2023-11-14T15:06:25+01:00
 draft = false
 +++
