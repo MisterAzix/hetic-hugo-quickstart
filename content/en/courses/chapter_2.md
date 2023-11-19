@@ -3,8 +3,6 @@ title = 'Chapter 2 : The Basics'
 date = 2023-11-14T15:06:29+01:00
 draft = false
 +++
-# Chapter 2: The Basics
-
 ## Objective
 The second chapter is dedicated to gaining a thorough understanding of the fundamental concepts of Hugo. This will enable you to develop static sites efficiently and in a structured manner.
 
@@ -14,6 +12,7 @@ A Hugo site is organized logically. Understand in detail the folder structure, s
 
 ### Content Creation
 
+![content-creation.avif](/images/content-creation.avif)
 Explore different methods for creating content with Hugo using the Markdown format. Learn how to organize your content into sections, pages, and articles for effective navigation. This section will guide you through the steps of creating consistent and well-structured content.
 
 ### Themes

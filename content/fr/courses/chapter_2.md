@@ -3,8 +3,6 @@ title = 'Chapitre 2 : Les bases'
 date = 2023-11-14T15:06:29+01:00
 draft = false
 +++
-# Chapitre 2: Les bases
-
 ## Objectif
 Le deuxième chapitre se consacre à l'acquisition d'une compréhension approfondie des concepts fondamentaux de Hugo. Cela vous permettra de développer des sites statiques de manière efficace et structurée.
 
@@ -14,6 +12,7 @@ Un site Hugo est organisé de manière logique. Comprenez en détail la structur
 
 ### Création de contenu
 
+![content-creation.avif](/images/content-creation.avif)
 Explorez les différentes méthodes pour créer du contenu avec Hugo en utilisant le format Markdown. Apprenez comment organiser votre contenu en sections, en pages, et en articles pour une navigation efficace. Cette section vous guidera à travers les étapes de création de contenu cohérent et bien structuré.
 
 ### Thèmes

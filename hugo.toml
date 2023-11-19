@@ -26,3 +26,11 @@ url = "https://github.com/MisterAzix"
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/MaxenceBr_"
+
+[related]
+includeNewer = true
+
+[[related.indices]]
+name = 'courses'
+type = 'fragments'
+weight = 1

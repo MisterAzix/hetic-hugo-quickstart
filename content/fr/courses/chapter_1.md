@@ -3,7 +3,7 @@ title = 'Chapitre 1 : Installation'
 date = 2023-11-14T15:06:25+01:00
 draft = false
 +++
-# Chapitre 1: Installation
+![hugo-framework-logo.jpeg](/images/hugo-framework-logo.jpeg)
 
 ## Objectif
 Le but de ce premier chapitre est de comprendre en détail le processus d'installation de Hugo, le framework de site statique. Une fois cette étape franchie, vous serez prêt à plonger dans les subtilités du développement de sites statiques.

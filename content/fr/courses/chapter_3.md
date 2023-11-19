@@ -3,13 +3,12 @@ title = 'Chapitre 3 : Customisation'
 date = 2023-11-14T15:06:31+01:00
 draft = false
 +++
-# Chapitre 3: Customisation
-
 ## Objectif
 Le troisième chapitre est dédié à la maîtrise des techniques de personnalisation avancées de Hugo. Cela vous permettra de créer des sites uniques, correspondant parfaitement à vos besoins.
 
 ### Variables de configuration
 
+![configuration.avif](/images/configuration.avif)
 Explorez en profondeur les options de configuration avancées de Hugo pour personnaliser le comportement de votre site. Apprenez à définir des variables, à gérer les paramètres du thème, et à optimiser les performances de votre site. Une compréhension approfondie de ces variables vous permettra d'adapter Hugo à vos besoins spécifiques.
 
 ### Modèles
