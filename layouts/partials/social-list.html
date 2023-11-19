@@ -1,0 +1,15 @@
+{{ $socials := where (partialCached "func/socials/Get" "socials/Get") "follow" "!=" false }}
+<div class="ananke-socials flex flex-column w-25 mv3" style="gap: .5rem">
+    <div class="white f4 lh-copy fw5">{{ i18n "socials" }}</div>
+
+    <ul class="list pl0  flex flex-column" style="gap: .5rem">
+        {{ range $socials }}
+        {{ $rel := .rel | default "noopener" }}
+        <li>
+            <a href="{{ .url }}" target="_blank" rel="{{ $rel }}" class="link" title="{{ .label }} link" aria-label="follow on {{ .label }}——Opens in a new window">
+                {{ .label }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

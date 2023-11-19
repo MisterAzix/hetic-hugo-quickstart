@@ -1,0 +1,16 @@
+{{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+{{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+{{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+<div class="ananke-socials flex flex-column w-25 mv3" style="gap: .5rem">
+    <div class="white f4 lh-copy fw5">{{ i18n "lastCourses" }}</div>
+
+    <ul class="list pl0  flex flex-column" style="gap: .5rem">
+        {{ range (first $n_posts $section) }}
+        <li>
+            <a class="link" href="{{ .RelPermalink }}" title="{{ i18n "pageTitle" . }}">
+            {{- .Title -}}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
