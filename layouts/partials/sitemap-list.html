@@ -1,0 +1,13 @@
+<div class="ananke-socials flex flex-column w-25 mv3" style="gap: .5rem">
+    <div class="white f4 lh-copy fw5">{{ i18n "sitemap" }}</div>
+
+    <ul class="list pl0  flex flex-column" style="gap: .5rem">
+        {{ range .Site.Menus.main }}
+        <li>
+            <a class="link" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
